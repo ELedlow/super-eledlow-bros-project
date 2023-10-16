@@ -9,12 +9,10 @@
     </head>
     <body>
         <div id="app">
-            <!--<iframe width="440" height="757" style="border: 0px;" src="https://studio.code.org/projects/gamelab/2PL0UqU5RnaOrofoq3X6SnWM0A-KU2QvAMfVlY-Jf3E/embed"></iframe>-->
-            <!--<iframe width="440" height="757" style="border: 0px;" src="https://www.deviantart.com/" id="iframe"></iframe>-->
-            <embed width="757" height="757" style="border: 0px;" src="/" id="iframe"></embed>
+            <iframe width="757" height="757" style="border: 0px;" src="/" id="iframe"></iframe>
         </div>   
         <script>
-            embed.onload = function() {
+            iframe.onload = function() {
                 let iframeWindow = iframe.contentWindow;
                 try{
                     let doc = iframe.contentDocument;
