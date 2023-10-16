@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" class="windows webkit chrome cursor electron file">
     <head>
         <title>Mario Pc Port - iframe host</title>
         <meta name="color-scheme" content="light dark">
         <meta property="og:site_name" content="MasterCode Project Build">
+        <meta name="referrer" content="strict-origin-when-cross-origin">
         <meta name="description" content="Super ELedlow Bros. A Super Mario Fangame with many levels, characters, games, and a story mode!">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/javascript">
         <meta http-equiv="Access-Control-Allow-Origin" content="*">  
-        <link rel="stylesheet" href="css/style.css" id="main-style">  
-        <link rel="icon" href="img/icon.png" id="my-favicon">
-        <script src="js/warn.js" id="console-warning"></script>
+        <link rel="stylesheet" href="public/css/hosted-style.css" id="main-style">  
+        <link rel="stylesheet" href="public/css/style.css" id="main-style">  
+        <link rel="icon" href="public/img/icon.png" id="my-favicon">
+        <script src="public/js/warn.js" id="console-warning"></script>
     </head>
     <body>
-        <center><iframe crossorigin="anonymous" sandbox="allow-same-origin allow-forms allow-popups allow-modals allow-scripts allow-pointer-lock" width="1525" height="757" src="public/index.html#app" name="game"></iframe></center>  
+        <!--<iframe width="440" height="757" style="border: 0px;" src="https://studio.code.org/projects/gamelab/2PL0UqU5RnaOrofoq3X6SnWM0A-KU2QvAMfVlY-Jf3E/embed"></iframe>-->
+        <!--<iframe width="557" height="757" src="https://google.com/search?igu=1"></iframe>-->
+        <center><iframe crossorigin="anonymous" sandbox="allow-scripts allow-same-origin" width="1525" height="757" src="public/index.html#app" name="game"></iframe></center>  
     </body>
 </html>
