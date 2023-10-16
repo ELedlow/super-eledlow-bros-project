@@ -2,7 +2,7 @@ var CrtY = 0;
 
 // make the lines
 var lines = new Image();
-lines.src = "http://i.imgur.com/TAJ0Zkw.png";//403 sorry
+//lines.src = "http://i.imgur.com/TAJ0Zkw.png";//403 sorry
 lines.src = "/public/img/Crt-filter_.png";
 
 window.addEventListener('load', fakeCRT, false);
