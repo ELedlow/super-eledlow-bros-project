@@ -1,0 +1,85 @@
+{   
+    "spriteSheet": "overworld",
+    "musicSheet": "silent",
+    "patternSheet": "overworld-pattern",
+
+    "layers": [
+        {
+            "tiles": [
+                {   
+                    "name": "sky",
+                    "ranges": [
+                        [0, 424, 0, 60]
+                    ]
+                },
+                {   
+                    "name": "sky",
+                    "type": "ground",
+                    "ranges": [
+                        [-20, 20, 0, 300],
+                        [424, 10, 0, 100]
+                    ]
+                },
+                {   
+                    "name": "ground",
+                    "type": "ground",
+                    "ranges": [
+                        [0, 424, 18, 2]
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {   
+                    "name": "chance-empty",
+                    "type": "ground",
+                    "ranges": [
+                        [61, 4, -18, 36]
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "pattern": "cannon-2h",
+                    "ranges": [
+                        [6, 16],
+                        [13, 16]
+                    ]
+                },
+                {   
+                    "name": "chance-empty",
+                    "type": "ground",
+                    "ranges": [
+                        [61, 4, -18, 36]
+                    ]
+                }
+            ]
+        }
+    ],
+
+    "entities": [
+        {
+            "name": "cannon",
+            "pos": [98, 257]
+        },
+        {
+            "name": "cannon",
+            "pos": [205, 257]
+        },
+        {
+            "name": "goomba",
+            "pos": [1030, 280]
+        },
+        {
+            "name": "goomba",
+            "pos": [1070, 280]
+        },
+        {
+            "name": "goomba",
+            "pos": [1090, 280]
+        }
+    ]
+}

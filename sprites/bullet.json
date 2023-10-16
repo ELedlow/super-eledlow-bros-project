@@ -1,0 +1,14 @@
+{
+    "imageURL": "img/SMB1/Enemies2.png",
+
+    "frames": [
+        {
+            "name": "bullet(old)",
+            "rect": [0, 355, 16, 14]
+        },
+        {
+            "name": "bullet",
+            "rect": [0, 421, 16, 14]
+        }
+    ]
+}

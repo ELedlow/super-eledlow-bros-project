@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us" class="windows webkit chrome cursor">
+    <head Access-Control-Allow-Origin: *>
+        <title>Mario Pc Port</title>
+        <meta name="color-scheme" content="light dark">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css" id="main-style"> 
+    </head>
+    <body>
+        <div id="app">
+            <!--<iframe width="440" height="757" style="border: 0px;" src="https://studio.code.org/projects/gamelab/2PL0UqU5RnaOrofoq3X6SnWM0A-KU2QvAMfVlY-Jf3E/embed"></iframe>-->
+            <!--<iframe width="440" height="757" style="border: 0px;" src="https://www.deviantart.com/" id="iframe"></iframe>-->
+            <embed width="757" height="757" style="border: 0px;" src="/" id="iframe"></embed>
+        </div>   
+        <script>
+            embed.onload = function() {
+                let iframeWindow = iframe.contentWindow;
+                try{
+                    let doc = iframe.contentDocument;
+                } catch(e){
+                    alert(e);
+                }
+
+                try{
+                    let href = iframe.contentWindow.location.href;
+                } catch(e){
+                    alert(e);
+                }
+
+                iframe.contentWindow.location = '/';
+
+                iframe.onload = null;
+            };
+        </script> 
+    </body>
+</html>

@@ -1,0 +1,309 @@
+{
+    "cloud-single": {
+        "tiles": [
+            {
+                "name": "cloud-1-1",
+                "ranges": [[0, 0]]
+            },
+            {
+                "name": "cloud-1-2",
+                "ranges": [[1, 0]]
+            },
+            {
+                "name": "cloud-1-3",
+                "ranges": [[2, 0]]
+            },
+            {
+                "name": "cloud-2-1",
+                "ranges": [[0, 1]]
+            },
+            {
+                "name": "cloud-2-2",
+                "ranges": [[1, 1]]
+            },
+            {
+                "name": "cloud-2-3",
+                "ranges": [[2, 1]]
+            }
+        ]
+    },
+    "cloud-double": {
+        "tiles": [
+            {
+                "name": "Bcloud-1-1",
+                "ranges": [[0, 0]]
+            },
+            {
+                "name": "Bcloud-1-2",
+                "ranges": [[1, 0]]
+            },
+            {
+                "name": "Bcloud-1-3",
+                "ranges": [[2, 0]]
+            },
+            {
+                "name": "Bcloud-2-1",
+                "ranges": [[0, 1]]
+            },
+            {
+                "name": "Bcloud-2-2",
+                "ranges": [[1, 1]]
+            },
+            {
+                "name": "Bcloud-2-3",
+                "ranges": [[2, 1]]
+            }
+        ]
+    },
+    "pipe-section-vert": {
+        "tiles": [
+            {   
+                "name": "pipe-vert-left",
+                "type": "ground",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {   
+                "name": "pipe-vert-right",
+                "type": "ground",
+                "ranges": [
+                    [1, 0]
+                ]
+            }
+        ]
+    },
+    "pipe-cap-vert": {
+        "tiles": [
+            {   
+                "name": "pipe-insert-vert-left",
+                "type": "ground",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {   
+                "name": "pipe-insert-vert-right",
+                "type": "ground",
+                "ranges": [
+                    [1, 0]
+                ]
+            }
+        ]
+    },
+    "pipe-2h": {
+        "tiles" : [
+            {
+                "pattern": "pipe-cap-vert",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "pattern": "pipe-section-vert",
+                "ranges": [
+                    [
+                        0, 1,
+                        1, 1
+                    ]
+                ]
+            }
+        ]
+    },
+    "pipe-3h": {
+        "tiles" : [
+            {
+                "pattern": "pipe-cap-vert",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "pattern": "pipe-section-vert",
+                "ranges": [
+                    [
+                        0, 1,
+                        1, 2
+                    ]
+                ]
+            }
+        ]
+    },
+    "pipe-4h": {
+        "tiles" : [
+            {
+                "pattern": "pipe-cap-vert",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "pattern": "pipe-section-vert",
+                "ranges": [
+                    [
+                        0, 1,
+                        1, 3
+                    ]
+                ]
+            }
+        ]
+    },
+
+    "cannon-2h": {
+        "tiles" : [
+            {
+                "name": "cannon-1",
+                "type": "ground",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "cannon-3",
+                "type": "ground",
+                "ranges": [
+                    [0, 1]
+                ]
+            }
+        ]
+    },
+    "castle": {
+        "tiles" : [
+            {
+                "name": "castle-top",
+                "type": "ground",
+                "ranges": [
+                    [1, 0],
+                    [2, 0],
+                    [3, 0]
+                ]
+            },
+            {
+                "name": "castle-top-left",
+                "type": "sky",
+                "ranges": [
+                    [1, 1]
+                ]
+            },
+            {
+                "name": "castle-top-middle",
+                "type": "sky",
+                "ranges": [
+                    [2, 1]
+                ]
+            },
+            {
+                "name": "castle-top-right",
+                "type": "sky",
+                "ranges": [
+                    [3, 1]
+                ]
+            },
+            {
+                "name": "castle-left",
+                "type": "ground",
+                "ranges": [
+                    [0, 2]
+                ]
+            },
+            {
+                "name": "castle-middle-1",
+                "type": "ground",
+                "ranges": [
+                    [1, 2]
+                ]
+            },
+            {
+                "name": "castle-middle-2",
+                "type": "ground",
+                "ranges": [
+                    [2, 2]
+                ]
+            },
+            {
+                "name": "castle-middle-3",
+                "type": "ground",
+                "ranges": [
+                    [3, 2]
+                ]
+            },
+            {
+                "name": "castle-right",
+                "type": "ground",
+                "ranges": [
+                    [4, 2]
+                ]
+            },
+            {
+                "name": "castle-mid-left",
+                "type": "sky",
+                "ranges": [
+                    [0, 3]
+                ]
+            },
+            {
+                "name": "castle-mid-middle-1",
+                "type": "sky",
+                "ranges": [
+                    [1, 3]
+                ]
+            },
+            {
+                "name": "castle-mid-middle-2",
+                "type": "sky",
+                "ranges": [
+                    [2, 3]
+                ]
+            },
+            {
+                "name": "castle-mid-middle-3",
+                "type": "ground",
+                "ranges": [
+                    [3, 3]
+                ]
+            },
+            {
+                "name": "castle-mid-right",
+                "type": "ground",
+                "ranges": [
+                    [4, 3]
+                ]
+            },
+            {
+                "name": "castle-bottom-left",
+                "type": "sky",
+                "ranges": [
+                    [0, 4]
+                ]
+            },
+            {
+                "name": "castle-bottom-middle-1",
+                "type": "sky",
+                "ranges": [
+                    [1, 4]
+                ]
+            },
+            {
+                "name": "castle-bottom-middle-2",
+                "type": "sky",
+                "ranges": [
+                    [2, 4]
+                ]
+            },
+            {
+                "name": "castle-bottom-middle-3",
+                "type": "ground",
+                "ranges": [
+                    [3, 4]
+                ]
+            },
+            {
+                "name": "castle-bottom-right",
+                "type": "ground",
+                "ranges": [
+                    [4, 4]
+                ]
+            }
+        ]
+    }
+}

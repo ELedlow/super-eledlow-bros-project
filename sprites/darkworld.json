@@ -1,0 +1,257 @@
+{
+    "imageURL": "img/SMB1/DarkWorld.png",
+    "tileW": 16,
+    "tileH": 16,
+
+    "tiles": [
+        {
+            "name": "ground",
+            "index": [0, 14.12]
+        },
+        {
+            "name": "grounddown",
+            "index": [1.06, 14.125]
+        },
+        {
+            "name": "ground-left",
+            "index": [0, 15.19]
+        },
+        {
+            "name": "ground-right",
+            "index": [0, 16.25]
+        },
+        {
+            "name": "ground-up",
+            "index": [0, 17.32]
+        },
+        {
+            "name": "brick",
+            "index": [1.06, 1.375]
+        },
+        {
+            "name": "chocolate",
+            "index": [6.35, 1.375]
+        },
+        {
+            "name": "chance",
+            "index": [0, 18.375]
+        },
+        {
+            "name": "chance-1",
+            "index": [0, 18.375]
+        },
+        {
+            "name": "chance-2",
+            "index": [1.05, 18.375]
+        },
+        {
+            "name": "chance-3",
+            "index": [2.13, 18.375]
+        },
+        {
+            "name": "chance-4",
+            "index": [3.2, 18.375]
+        },
+        {
+            "name": "coin-1",
+            "index": [4.2, 18.375]
+        },
+        {
+            "name": "coin-2",
+            "index": [5.26, 18.375]
+        },
+        {
+            "name": "coin-3",
+            "index": [6.3, 18.375]
+        },
+        {
+            "name": "coin-4",
+            "index": [7.38, 18.375]
+        },
+        {
+            "name": "chance-empty",
+            "index": [5.3, 1.375]
+        },
+        {
+            "name": "sky",
+            "index": [0, 1.375]
+        },
+        {
+            "name": "pipe-insert-vert-left",
+            "index": [14.877, 1.375]
+        },
+        {
+            "name": "pipe-insert-vert-right",
+            "index": [15.999, 1.375]
+        },
+        {
+            "name": "pipe-vert-left",
+            "index": [14.877, 2.438]
+        },
+        {
+            "name": "pipe-vert-right",
+            "index": [15.999, 2.438]
+        },
+        {
+            "name": "cloud-1-1",
+            "index": [0, 22.035]
+        },
+        {
+            "name": "cloud-1-2",
+            "index": [2, 22.035]
+        },
+        {
+            "name": "cloud-1-3",
+            "index": [-2, 22.035]
+        },
+        {
+            "name": "cloud-2-1",
+            "index": [0, 22.935]
+        },
+        {
+            "name": "cloud-2-2",
+            "index": [2, 22.935]
+        },
+        {
+            "name": "cloud-2-3",
+            "index": [-2, 22.935]
+        },
+        {
+            "name": "Bcloud-1-1",
+            "index": [0, 22.035]
+        },
+        {
+            "name": "Bcloud-1-2",
+            "index": [1, 22.035]
+        },
+        {
+            "name": "Bcloud-1-3",
+            "index": [2, 22.035]
+        },
+        {
+            "name": "Bcloud-2-1",
+            "index": [0, 22.935]
+        },
+        {
+            "name": "Bcloud-2-2",
+            "index": [1, 22.935]
+        },
+        {
+            "name": "Bcloud-2-3",
+            "index": [2, 22.935]
+        },
+        {
+            "name": "cannon-1",
+            "index": [13.82, 19.62]
+        },
+        {
+            "name": "cannon-2",
+            "index": [13.82, 21.69]
+        },
+        {
+            "name": "cannon-3",
+            "index": [13.82, 20.62]
+        },
+        {
+            "name": "castle-top",
+            "index": [1, 23.75]
+        },
+        {
+            "name": "castle-top-left",
+            "index": [1, 24.75]
+        },
+        {
+            "name": "castle-top-middle",
+            "index": [2, 24.75]
+        },
+        {
+            "name": "castle-top-right",
+            "index": [3, 24.75]
+        },
+        {
+            "name": "castle-left",
+            "index": [0, 25.75]
+        },
+        {
+            "name": "castle-middle-1",
+            "index": [1, 25.75]
+        },
+        {
+            "name": "castle-middle-2",
+            "index": [2, 25.75]
+        },
+        {
+            "name": "castle-middle-3",
+            "index": [3, 25.75]
+        },
+        {
+            "name": "castle-right",
+            "index": [4, 25.75]
+        },
+        {
+            "name": "castle-mid-left",
+            "index": [0, 26.75]
+        },
+        {
+            "name": "castle-mid-middle-1",
+            "index": [1, 26.75]
+        },
+        {
+            "name": "castle-mid-middle-2",
+            "index": [2, 26.75]
+        },
+        {
+            "name": "castle-mid-middle-3",
+            "index": [3, 26.75]
+        },
+        {
+            "name": "castle-mid-right",
+            "index": [4, 26.75]
+        },
+        {
+            "name": "castle-bottom-left",
+            "index": [0, 27.75]
+        },
+        {
+            "name": "castle-bottom-middle-1",
+            "index": [1, 27.75]
+        },
+        {
+            "name": "castle-bottom-middle-2",
+            "index": [2, 27.75]
+        },
+        {
+            "name": "castle-bottom-middle-3",
+            "index": [3, 27.75]
+        },
+        {
+            "name": "castle-bottom-right",
+            "index": [4, 27.75]
+        }
+    ],
+
+    "animations": [
+        {
+            "name": "chance",
+            "frameLen": 0.15,
+            "frames": [
+                "chance-1",
+                "chance-2",
+                "chance-3",
+                "chance-2",
+                "chance-1"
+            ]
+        },
+        {
+            "name": "coin",
+            "frameLen": 0.15,
+            "frames": [
+                "coin-1",
+                "coin-2",
+                "coin-3",
+                "coin-2",
+                "coin-1"
+            ]
+        }
+    ]
+}

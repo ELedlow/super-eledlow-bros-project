@@ -1,0 +1,46 @@
+{
+    "imageURL": "img/SMB1/ELedlow.png",
+
+    "frames": [
+        {
+            "name": "idle",
+            "rect": [2, 6, 16, 18]
+        },
+        {
+            "name": "duck",
+            "rect": [19, 9, 13, 16]
+        },
+        {
+            "name": "run-1",
+            "rect": [37, 6, 15, 18]
+        },
+        {
+            "name": "run-2",
+            "rect": [54, 6, 15, 18]
+        },
+        {
+            "name": "run-3",
+            "rect": [71, 7, 15, 18]
+        },
+        {
+            "name": "break",
+            "rect": [144, 5, 13, 18]
+        },
+        {
+            "name": "jump",
+            "rect": [179 , 7, 17, 18]
+        }
+    ],
+
+    "animations": [
+        {
+            "name": "run",
+            "frameLen": 6,
+            "frames": [
+                "run-1",
+                "run-2",
+                "run-3"
+            ]
+        }
+    ]
+}

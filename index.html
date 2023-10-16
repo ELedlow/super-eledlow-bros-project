@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us" class="windows webkit chrome cursor">
+    <head>
+        <title>Mario Pc Port</title>
+        <meta name="color-scheme" content="light dark">
+        <meta property="og:site_name" content="MasterCode Project Build">
+        <meta name="referrer" content="strict-origin-when-cross-origin">
+        <meta name="description" content="Super ELedlow Bros. A Super Mario Fangame with many levels, characters, games, and a story mode!">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="module">
+        <link rel="stylesheet" href="css/style.css" id="main-style">  
+        <link rel="icon" href="img/icon.png" id="my-favicon">
+        <script async src="js/crt-filter.js" id="filter"></script>
+        <script type="module" src="js/main.js" id="game-scripts"></script>
+        <script type="module" src="js/catch.js" id="error-scripts"></script>
+        <script type="module" src="js/element.js" id="visible-error-logging"></script>
+        <script src="js/warn.js" id="console-warning"></script>
+    </head>
+    <body onload='
+    javascript:{
+        var protocol = window.location.protocol;
+        console.log("The window protocol scheme is",protocol);
+        var address = protocol + "\/\/" + window.location.host + window.location.pathname;
+        window.address = address;
+        console.log("The window address is",window.address);
+        function elementFromHtml(html) {
+            const template = document.createElement("template");
+
+            template.innerHTML = html.trim();
+    
+            return template.content.firstElementChild;
+        }
+
+        var not_iframe = elementFromHtml(`
+            <div id="Npm-Screen" style="color: green;">
+                <h1>
+                    Uh oh! It seems that you tried to run the game in a file url outside of a iframe or a live-server. Try the 
+                    <a href="hosted.html" style="color: blue;">hosted.html</a>
+                    instead.
+                </h1>
+            </div>
+        `);
+
+        function loadTheElement(loadError){
+            document.body.appendChild(loadError);
+        }
+
+        if (protocol === "file:" || !protocol) {
+            if (window === top) {
+                var app = document.getElementById("app");
+                document.body.removeChild(app);
+                console.log("div \"app\" deleted.");
+                console.error("Object",not_iframe);
+                loadTheElement(not_iframe);
+            }
+        }
+    }'>
+        <div id="app">
+            <?php require 'cors.php';?>
+            <center><canvas id="screen" width="320" height="320"></canvas></center>
+            <Instructions id="inst">Instructions:</Instructions>
+            <Text id="inst">
+                <div type="cm-line">Click the Screen to start.</div>
+                <div type="cm-line">Arrow keys and ASDW to play and Z or M to dash.</div>
+            </Text>
+            <Notes id="notes">Notes:</Notes>
+            <Text id="notes">
+                <div type="cm-line">If you want to have classic quality, click 'C' to change the quality. You can click 'C' again to change it back.</div>
+                <br>
+                <div type="cm-line">WARNING! If a real JavaScript error occurs with the crt filter on, the screen will shut off and can only be restored with a refresh. If you are using the application version, try exiting out, then clicking back on.</div>
+            </Text>
+        </div> 
+    </body>
+</html>

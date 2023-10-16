@@ -1,0 +1,9 @@
+iframe {
+    display: block;
+    image-rendering: crisp-edges;
+    height: 100vh;
+    margin: auto;
+    image-rendering: pixelated;
+    background: blue;
+    border-radius: 0px;
+}

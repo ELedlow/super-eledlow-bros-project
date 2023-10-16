@@ -1,0 +1,43 @@
+{   
+    "spriteSheet": "underworld",
+    "musicSheet": "underworld",
+    "patternSheet": "overworld-pattern",
+
+    "layers": [
+        {
+            "tiles": [
+                {   
+                    "name": "sky",
+                    "ranges": [
+                        [0, 424, 0, 60]
+                    ]
+                },
+                {   
+                    "name": "sky",
+                    "type": "ground",
+                    "ranges": [
+                        [-20, 20, 0, 300],
+                        [424, 10, 0, 100]
+                    ]
+                },
+                {   
+                    "name": "ground",
+                    "type": "ground",
+                    "ranges": [
+                        [0, 424, 18, 2]
+                    ]
+                }
+            ]
+        }
+    ],
+
+    "entities": [],
+
+    "triggers": [
+        {
+            "type": "goto",
+            "name": "1-1",
+            "pos": [124, 180]
+        }
+    ]
+}

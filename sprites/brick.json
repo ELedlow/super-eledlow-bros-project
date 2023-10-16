@@ -1,0 +1,12 @@
+{
+    "imageURL": "img/SMB1/sawdust.png",
+
+    "frames": [
+        {
+            "name": "broke",
+            "rect": [0, 14, 7, 7]
+        }
+    ],
+
+    "animations": []
+}

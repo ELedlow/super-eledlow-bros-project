@@ -1,0 +1,13 @@
+{
+    "fx": {
+        "coin": {
+            "url": "./audio/smb_coin.wav"
+        },
+        "jump": {
+            "url": "./audio/jump.wav"
+        },
+        "stomp": {
+            "url": "./audio/stomp.wav"
+        }
+    }
+}

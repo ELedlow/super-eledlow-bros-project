@@ -1,0 +1,41 @@
+{
+    "imageURL": "img/SMB1/Enemies.png",
+
+    "frames": [
+        {
+            "name": "walk-1",
+            "rect": [0, 40, 16, 24]
+        },
+        {
+            "name": "walk-2",
+            "rect": [17, 40, 16, 24]
+        },
+        {
+            "name": "hiding",
+            "rect": [76, 40, 16, 24]
+        },
+        {
+            "name": "hiding-with-legs",
+            "rect": [55, 40, 16, 24]
+        }
+    ],
+
+    "animations": [
+        {
+            "name": "walk",
+            "frameLen": 0.15,
+            "frames": [
+                "walk-1",
+                "walk-2"
+            ]
+        },
+        {
+            "name": "wake",
+            "frameLen": 0.15,
+            "frames": [
+                "hiding-with-legs",
+                "hiding"
+            ]
+        }
+    ]
+}

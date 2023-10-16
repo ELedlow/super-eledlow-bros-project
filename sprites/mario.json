@@ -1,0 +1,46 @@
+{
+    "imageURL": "img/SMB1/Mario.png",
+
+    "frames": [
+        {
+            "name": "idle",
+            "rect": [1, 8, 13, 16]
+        },
+        {
+            "name": "duck",
+            "rect": [18, 8, 13, 16]
+        },
+        {
+            "name": "run-1",
+            "rect": [34, 8, 15, 16]
+        },
+        {
+            "name": "run-2",
+            "rect": [52, 8, 15, 16]
+        },
+        {
+            "name": "run-3",
+            "rect": [70, 8, 15, 16]
+        },
+        {
+            "name": "break",
+            "rect": [713, 8, 13, 16]
+        },
+        {
+            "name": "jump",
+            "rect": [102 , 8, 16, 16]
+        }
+    ],
+
+    "animations": [
+        {
+            "name": "run",
+            "frameLen": 6,
+            "frames": [
+                "run-1",
+                "run-2",
+                "run-3"
+            ]
+        }
+    ]
+}

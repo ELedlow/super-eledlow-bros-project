@@ -1,0 +1,108 @@
+body {
+    background: black;
+    font-family: monospace;
+    margin: 0;
+}
+canvas {
+    display: block;
+    image-rendering: crisp-edges;
+    height: 100vh;
+    margin: auto;
+    image-rendering: pixelated;
+    background: red;
+    border-radius: 10px;
+}
+iframe {
+    display: block;
+    image-rendering: crisp-edges;
+    height: 100vh;
+    margin: auto;
+    image-rendering: pixelated;
+    background: blue;
+    border-radius: 10px;
+}
+#screen {
+    display: block;
+    image-rendering: crisp-edges;
+    height: 100vh;
+    margin: auto;
+    image-rendering: pixelated;
+    background: #93BBEC;
+    border-radius: 10px;
+    float:left;
+    margin-left: 60vh;
+}
+#old_screen {
+    display: block;
+    image-rendering: crisp-edges;
+    height: 100vh;
+    margin: auto;
+    image-rendering: pixelated;
+    background: #93BBEC;
+    border-radius: 10px;
+    float:left;
+    margin-left: 60vh;
+}
+Text {
+    border-width: thick;
+    border-style: solid;
+    border-color: #645f5f;
+    border-width: thick;
+    border-width: 3px;
+    border-style: thick;
+    border-radius: 5px;
+    background-color: #1a1818;
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bold;
+    color:white;
+    display: block;
+    width: 22%;
+    float: right;
+}
+Instructions {
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    color:white;
+    display: block;
+    width: 22%;
+    float: right;
+}
+Notes {
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    color:white;
+    display: block;
+    width: 22%;
+    float: right;
+}
+Emoji {
+    border-width: thick;
+    border-style: solid;
+    border-color: #645f5f;
+    border-width: thick;
+    border-width: 3px;
+    border-style: thick;
+    border-radius: 5px;
+    background-color: #1a1818;
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bold;
+    color:white;
+    display: block;
+    width: 24%;
+    float: right;
+}
+ElectronText {
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    color:lightskyblue;
+    display: block;
+    float: auto;
+}
