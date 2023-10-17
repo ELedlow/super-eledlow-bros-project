@@ -1,4 +1,4 @@
-"use strict";//DO NOT DELETE THIS SCRIPT
+//"use strict";//DO NOT DELETE THIS SCRIPT
 import { Font } from "../loaders/font.js";//this allows you to change the font anytime.
 import { loadImage } from "../loaders.js";//loads the font images. (the text)
 import { SpriteSheet } from "../SpriteSheet.js";//it's a spritesheet like everything else is.
